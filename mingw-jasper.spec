@@ -5,7 +5,7 @@
 
 Name:           mingw-jasper
 Version:        1.900.28
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Jasper library
 
 License:        JasPer
@@ -148,6 +148,9 @@ rm $RPM_BUILD_ROOT%{mingw32_mandir}/man1/*
 
 
 %changelog
+* Fri Feb 03 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.900.28-2
+- Rebuild with GCC 5.4.0
+
 * Wed Nov 23 2016 Michael Cronenworth <mike@cchtml.com> - 1.900.28-1
 - Upstream release.
 - Many security fixes:
